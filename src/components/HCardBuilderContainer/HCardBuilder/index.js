@@ -5,7 +5,7 @@ import HCardBuilderSubHeader from './HCardBuilderSubHeader'
 import HeaderTitle from '../../HeaderTitle'
 import './index.css';
 
-const HCardBuilder = ({callback}) => {
+const HCardBuilder = ({callback, selectFile}) => {
     return (
         <section>
             <div>
@@ -34,7 +34,7 @@ const HCardBuilder = ({callback}) => {
                     </div>
 
                     <div className="hcard--builder-section">
-                        <HCardButtons/>
+                        <HCardButtons selectFile={selectFile}/>
                     </div>
 
                     <div className="hcard--builder-section">

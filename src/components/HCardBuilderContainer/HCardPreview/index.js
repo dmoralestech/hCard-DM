@@ -29,7 +29,7 @@ const HCardPreview = ({hCard}) => {
                 </div>
                 <div className="row">
                     <div className="col-xs-12 hcard--preview-mini">
-                        <PreviewHeader givenName={hCard.givenName} surname={hCard.surname}/>
+                        <PreviewHeader givenName={hCard.givenName} surname={hCard.surname} photo={hCard.photo}/>
                         <div className="hcard--preview-mini-bottom">
                             <PreviewField label="EMAIL" text={hCard.email}/>
                             <PreviewField label="PHONE" text={hCard.phone}/>

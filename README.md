@@ -1,0 +1,1 @@
+to run the app, after cloning, run "npm install" and then "npm start"

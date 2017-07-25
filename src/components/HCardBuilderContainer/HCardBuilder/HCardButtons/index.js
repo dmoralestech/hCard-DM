@@ -1,13 +1,13 @@
 import React from 'react';
 import './index.css';
 
-const HCardButtons = () => {
+const HCardButtons = ({selectFile}) => {
     return (
         <div>
             <div className="form-group col-xs-6">
                 <div className="hcard--builder--button hcard--builder--button-upload" type="button">
                     <span>Upload Avatar </span>
-                    <input className="hcard--builder--button-upload-input-avatar" type="file"/>
+                    <input className="hcard--builder--button-upload-input-avatar" type="file" onChange={selectFile}/>
                 </div>
             </div>
             <div className="form-group col-xs-6">
