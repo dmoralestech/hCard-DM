@@ -8,7 +8,15 @@ import './index.css';
 const HCardPreview = ({hCard}) => {
 
     const addressLine1 = hCard.houseName + ' ' + hCard.street;
-    const addressLine2 = (hCard.stateName) ? hCard.suburb + ", " + hCard.stateName : hCard.suburb;
+
+    let addressLine2;
+    if (!hCard.stateName) {
+        addressLine2 = hCard.suburb;
+    } else if (!hCard.suburb) {
+        addressLine2 = hCard.stateName;
+    } else {
+        addressLine2 = hCard.suburb + ", " + hCard.stateName
+    }
 
     return (
         <section>
