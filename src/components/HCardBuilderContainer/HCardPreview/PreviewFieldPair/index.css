@@ -1,0 +1,13 @@
+.hcard--preview-mini-bottom-row {
+    border-bottom: 1px solid #dbe0e2;
+    padding-bottom: 0;
+    margin-bottom: 20px; }
+.hcard--preview-mini-bottom-row-label {
+    display: inline-block;
+    width: 80px;
+    font-size: 10px; }
+.hcard--preview-mini-bottom-row-text {
+    display: inline-block;
+    font-size: 15px; }
+.hcard--preview-mini-bottom-row-text-filler {
+    width: 20%; }

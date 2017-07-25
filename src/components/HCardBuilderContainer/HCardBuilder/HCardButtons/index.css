@@ -1,0 +1,41 @@
+.hcard--builder--button {
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 42px;
+    overflow: visible;
+    text-align: center;
+    text-decoration: none;
+    transition: 150ms;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap; }
+.hcard--builder--button-upload {
+    background-color: #627b8b;
+    box-shadow: 0px 4px 0px #456579;
+    position: relative;
+    overflow: hidden; }
+.hcard--builder--button-upload-input-avatar {
+    font-size: 40px;
+    /*so it can be clickable despite being transparent*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0); }
+.hcard--builder--button-create {
+    background-color: #3498db;
+    box-shadow: 0px 4px 0px #2980b9; }

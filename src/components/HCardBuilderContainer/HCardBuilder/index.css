@@ -1,0 +1,21 @@
+.hcard--builder {
+    background-color: #FFFFFF;
+    height: 100vh;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px; }
+.hcard--builder-section {
+    margin-top: 30px;
+    margin-bottom: 35px; }
+
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}

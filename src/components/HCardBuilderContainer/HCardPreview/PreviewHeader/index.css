@@ -1,0 +1,21 @@
+
+.hcard--preview-mini-top-avatar-heading {
+    min-height: 100px;
+    background-color: #394f63;
+    overflow: visible;
+    padding-bottom: 13px; }
+
+.hcard--preview-mini-top-name-heading {
+    text-align: left;
+    font-size: 21px;
+    color: #bbc2c5;
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 30px; }
+
+.hcard--preview-mini-top-avatar-image {
+    float: right;
+    margin-right: 15px;
+    margin-top: -40px;
+    height: 106px;
+    width: 86px; }

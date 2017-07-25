@@ -1,0 +1,25 @@
+.hcard--preview {
+    background-color: #E7E9EC;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 100px;
+    height: 100vh; }
+
+.hcard--preview--subtitle {
+    color: #BFC6C8;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: right;
+    text-transform: uppercase; }
+
+.hcard--preview-mini {
+    height: 100%; }
+
+.hcard--preview-mini-bottom {
+    background-color: #FFFFFF;
+    height: 305px;
+    padding-top: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-bottom: 2px solid #aaaaaa; }
