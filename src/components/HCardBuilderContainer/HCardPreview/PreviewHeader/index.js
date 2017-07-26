@@ -12,7 +12,8 @@ const PreviewHeader = ({givenName, surname, photo}) => {
 };
 PreviewHeader.propTypes = {
     givenName: PropTypes.string.isRequired,
-    surname: PropTypes.string.isRequired
+    surname: PropTypes.string.isRequired,
+    photo: PropTypes.string.isRequired
 };
 
 export default PreviewHeader;

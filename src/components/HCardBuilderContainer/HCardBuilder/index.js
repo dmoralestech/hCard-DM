@@ -3,6 +3,7 @@ import HCardButtons from './HCardButtons'
 import InputFieldPair from '../../InputFieldPair'
 import HCardBuilderSubHeader from './HCardBuilderSubHeader'
 import HeaderTitle from '../../HeaderTitle'
+import PropTypes from 'prop-types';
 import './index.css';
 
 const HCardBuilder = ({callback, selectFile}) => {
@@ -46,5 +47,10 @@ const HCardBuilder = ({callback, selectFile}) => {
         </section>
     );
 }
+
+HCardBuilder.propTypes = {
+    callback: PropTypes.func.isRequired,
+    selectFile: PropTypes.func.isRequired
+};
 
 export default HCardBuilder;
